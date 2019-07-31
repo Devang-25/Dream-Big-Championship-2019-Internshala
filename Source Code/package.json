@@ -1,0 +1,19 @@
+{
+  "name": "barcohack",
+  "version": "1.0.0",
+  "description": "A software solution for managing transportation problem in smart cities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PseudoCoders",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jimp": "^0.6.0",
+    "pixelmatch": "^4.0.2",
+    "wasm-image-to-black-white": "^0.4.2"
+  }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Automated transport control system</title>
+	<style type="text/css">
+		h1 {
+			margin-top: 10px;
+			text-align: center;
+		}
+
+		.main-table {
+			border-width: 0px;
+			margin: 20px auto;
+		}
+
+		td {
+			width: 160px;
+			height: 160px;
+		}
+
+		td:nth-of-type(2n) {
+			border-left: 2px solid black;
+			border-right: 2px solid black;
+		}
+
+		tr:nth-of-type(2n) td {
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+		}
+		input {
+			margin-left: 1px;
+		}
+		input[type="submit"]{
+			margin: 0px 44.8%;
+			height: 40px;
+			width: 160px;
+			border-radius: 4px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Automated transport control system demo</h1>
+	<form method="post" action="/">
+	<table class="main-table">
+		<tr>
+			<td></td>
+			<td id="top">
+				<input type="number" name="inputTop" id="inputTop" required="required">
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="left">
+				<input type="number" name="inputLeft" id="inputLeft" required="required">
+			</td>
+			<td></td>
+			<td id="right">
+				<input type="number" name="inputRight" id="inputRight" required="required">
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td id="bottom">
+				<input type="number" name="inputBottom" id="inputBottom" required="required">
+			</td>
+			<td></td>
+		</tr>
+	</table>
+	<input type="submit" placeholder="Submit">
+	</form>
+
+		<% tArray.forEach((data)=>{%>
+			<h3> <%=data%> </h3>
+	<% })%> 
+
+</body>
+</html>
